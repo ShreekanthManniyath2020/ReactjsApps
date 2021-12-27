@@ -10,7 +10,8 @@ function App() {
   return (
     <div className="App">
     <button onClick={addCount}>Add</button>
-    <Counter count={count}/>
+    <Counter title='1st Counter' count={count} />
+    <Counter title='2nd Counter' count={count} />
     </div>
   );
 }
