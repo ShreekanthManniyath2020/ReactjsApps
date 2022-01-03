@@ -31,7 +31,17 @@
 .poster:hover{
     transform: scale(1.1);
 }
+/* 
+.poster:hover + .tooltip {
+    transform: scale(1.1);
+    visibility: visible;
+} */
 
 .smallPoster:hover{
     transform: scale(1.1);
+}
+
+
+.tooltip {
+  visibility: hidden;  /* Or display: none, depending on how you want it to behave */
 }
